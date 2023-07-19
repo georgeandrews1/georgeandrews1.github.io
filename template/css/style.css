@@ -1,4 +1,4 @@
-@import url("templace/css/print.css");
+@import url("template/css/print.css");
 
 a[href$=".avi"]:after {
   content       : " [avi]";
