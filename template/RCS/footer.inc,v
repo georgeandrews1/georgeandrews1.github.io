@@ -1,0 +1,140 @@
+head	1.8;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.8
+date	2008.11.24.14.52.57;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2008.10.22.16.07.35;	author apache;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2008.10.22.16.06.33;	author apache;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2008.10.22.16.06.19;	author apache;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2008.10.22.16.05.53;	author apache;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2008.10.22.16.05.40;	author apache;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2008.10.22.16.05.16;	author apache;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2008.10.20.18.13.38;	author apache;	state Exp;
+branches;
+next	;
+
+
+desc
+@footer.inc
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@  <div class="footer">
+   <p>The Pennsylvania State University &mdash; Department of Mathematics</p>
+   <p>This page was last modified on <!--#config timefmt="%B %e, %Y" --><!--#flastmod virtual="$SCRIPT_URL" -->.</p>
+  </div>
+@
+
+
+1.7
+log
+@straub - 2008-10-22T12:07:35 - 146.186.132.23
+@
+text
+@d3 1
+a3 1
+   <p>This page was last modified on <!--#include virtual="/includes/modified.php?f=F jS, Y" -->.</p>
+@
+
+
+1.6
+log
+@straub - 2008-10-22T12:06:33 - 146.186.132.23
+@
+text
+@d3 1
+a3 1
+   <p>This page was last modified on <!--#include virtual="/includes/modified.php?f=FjSY" -->.</p>
+@
+
+
+1.5
+log
+@straub - 2008-10-22T12:06:19 - 146.186.132.23
+@
+text
+@d3 1
+a3 1
+   <p>This page was last modified on <!--#include virtual="/includes/modified.php?f=F+jS%2C+Y" -->.</p>
+@
+
+
+1.4
+log
+@straub - 2008-10-22T12:05:53 - 146.186.132.23
+@
+text
+@d3 1
+a3 1
+   <p>This page was last modified on <!--#include virtual="/includes/modified.php?f=F+jS,+Y" -->.</p>
+@
+
+
+1.3
+log
+@straub - 2008-10-22T12:05:40 - 146.186.132.23
+@
+text
+@d3 1
+a3 1
+   <p>This page was last modified on <!--#include virtual="/includes/modified.php?f=F%20jS,%20Y" -->.</p>
+@
+
+
+1.2
+log
+@straub - 2008-10-22T12:05:16 - 146.186.132.23
+@
+text
+@d3 1
+a3 1
+   <p>This page was last modified on <!--#include virtual="/includes/modified.php?f=F jS, Y" -->.</p>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 2
+a3 1
+   <p>The Pennsylvania State University</p>
+@

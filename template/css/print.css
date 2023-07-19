@@ -1,0 +1,30 @@
+@media print {
+  body div.header ul,
+  body div.header img,
+  body ul.menu,
+  body div.footer { display: none }
+
+  body div.header img:first-child { display: inline }
+  body div.header h1, body div.header h2 {
+    padding-bottom: 0;
+    padding-top   : 0 }
+
+  div#content a {
+    color          : inherit;
+    text-decoration: none }
+
+  html, body, body div.header, body div#content {
+    background-color: transparent;
+    border-style    : none;
+    clear           : both;
+    color           : #000000;
+    display         : block;
+    height          : auto;
+    margin          : 0;
+    overflow        : visible;
+    padding         : 0;
+    position        : static;
+    width           : 100% }
+
+  body div.header { margin-bottom: 2em }
+}

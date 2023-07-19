@@ -1,0 +1,460 @@
+head	1.25;
+access;
+symbols;
+locks
+	root:1.25; strict;
+comment	@# @;
+
+
+1.25
+date	2012.03.23.18.55.13;	author apache;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2012.03.23.18.48.59;	author apache;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2012.01.10.17.09.31;	author apache;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2012.01.10.17.08.50;	author apache;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2011.02.10.17.10.36;	author apache;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2010.02.19.19.06.46;	author apache;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2009.04.14.18.25.00;	author apache;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2009.01.14.19.49.15;	author apache;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2009.01.14.19.21.58;	author apache;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2009.01.14.19.19.08;	author apache;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2009.01.14.17.59.26;	author root;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2008.11.20.20.17.12;	author apache;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2008.10.24.19.39.22;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2008.10.24.18.52.13;	author apache;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2008.10.22.19.27.39;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2008.10.22.19.24.47;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2008.10.22.19.02.33;	author apache;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2008.10.22.17.18.38;	author apache;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2008.10.22.17.18.02;	author apache;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2008.10.22.16.53.51;	author apache;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2008.10.21.23.40.06;	author apache;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2008.10.21.16.55.14;	author apache;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2008.10.21.14.16.51;	author apache;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2008.10.21.14.16.10;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2008.10.20.18.13.47;	author apache;	state Exp;
+branches;
+next	;
+
+
+desc
+@menu.inc
+@
+
+
+1.25
+log
+@bab - 2012-03-23T14:55:13 - 146.186.134.224
+@
+text
+@  <ul class="menu">
+   <li><a href="/andrews/">Home</a></li>
+   <li><a href="/andrews/teaching.html">Teaching</a></li>
+   <li><a href="/andrews/contact.html">Contact</a></li>
+   <li><a href="/andrews/pdf/2012.pdf">2012Talks</a></li>
+   <li><a href="/andrews/vitae.html">Curriculum Vitae</a></li>
+   <li><a href="/andrews/publications.html">List of Publications</a></li>
+   <li><a href="/andrews/preprints.html">Preprints</a></li>
+   <li><a href="/andrews/education.html">Math Education</a></li>
+   <li><a href="http://www.pnas.org/cgi/content/full/102/13/4663">Biography (PNAS)</a></li>
+   <li><a href="/andrews/geapresentation4.ppt">"Our Challenges" AMS Retirement Address 2012</a></li>
+  </ul>
+@
+
+
+1.24
+log
+@bab - 2012-03-23T14:48:59 - 146.186.134.224
+@
+text
+@d5 1
+a5 1
+   <li><a href="/andrews/pdf/2012.pdf">2011Talks</a></li>
+@
+
+
+1.23
+log
+@bab - 2012-01-10T12:09:31 - 146.186.134.224
+@
+text
+@d5 1
+a5 1
+   <li><a href="/andrews/pdf/2011.pdf">2011Talks</a></li>
+@
+
+
+1.22
+log
+@bab - 2012-01-10T12:08:50 - 146.186.134.224
+@
+text
+@d11 1
+a11 1
+   <li><a href="/andrews/GEAPresentation4.ppt">"Our Challenges" AMS Retirement Address</a></li>
+@
+
+
+1.21
+log
+@bab - 2011-02-10T12:10:36 - 146.186.134.224
+@
+text
+@d11 1
+@
+
+
+1.20
+log
+@bab - 2010-02-19T14:06:46 - 146.186.134.224
+@
+text
+@d5 1
+a5 1
+   <li><a href="/andrews/pdf/2010.pdf">2010 Talks</a></li>
+@
+
+
+1.19
+log
+@bab - 2009-04-14T14:25:00 - 146.186.134.224
+@
+text
+@d5 1
+a5 1
+   <li><a href="/andrews/pdf/talks.pdf">2009 Talks</a></li>
+@
+
+
+1.18
+log
+@straub - 2009-01-14T14:49:15 - 146.186.132.23
+@
+text
+@d5 1
+a5 1
+   <li><a href="/andrews/talks.pdf">2009 Talks</a></li>
+@
+
+
+1.17
+log
+@bab - 2009-01-14T14:21:58 - 146.186.134.224
+@
+text
+@d5 1
+a5 1
+   <li><a href="/andrews/talks/2009.pdf">2009 Talks</a></li>
+@
+
+
+1.16
+log
+@bab - 2009-01-14T14:19:08 - 146.186.134.224
+@
+text
+@d8 1
+a8 1
+   <li><a href="/andrews/preprints.html">Summary of Research</a></li>
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d6 1
+a6 1
+   <li><a href="/andrews/cv.html">Curriculum Vitae</a></li>
+@
+
+
+1.14
+log
+@bab - 2008-11-20T15:17:12 - 146.186.134.224
+@
+text
+@d2 9
+a10 17
+   <li><a href="/baum/">Home</a></li>
+   <li><a href="/baum/teaching.html">Teaching</a></li>
+   <li><a href="/baum/talks/">Talks</a>
+    <ol>
+     <li><a href="/baum/talks/2009.pdf">2009</a></li>
+     <li><a href="/baum/talks/2008.pdf">2008</a></li>
+     <li><a href="/baum/talks/2007.pdf">2007</a></li>
+     <li><a href="/baum/talks/2006.pdf">2006</a></li>
+     <li><a href="/baum/talks/2005.pdf">2005</a></li>
+    </ol>
+   </li>
+   <li><a href="/baum/cv.pdf">Curriculum Vitae</a></li>
+   <li><a href="/baum/publications/">List of Publications</a></li>
+   <li><a href="/baum/research.html">Summary of Research</a></li>
+   <li><a href="/higson/GFA/bc/">Bibliography of the Baum-Connes Conjecture</a></li>
+   <li><a href="/baum/publications/36.html">Rocking and Rolling with Raoul</a></li>
+   <li><a href="/baum/talks/newton.avi">Newton Institute Lecture<br/>August 2006</a></li>
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d6 1
+a15 1
+   <li><a href="/higson/GFA/">GFA Seminar</a></li>
+@
+
+
+1.12
+log
+@bab - 2008-10-24T14:52:13 - 146.186.134.224
+@
+text
+@d2 3
+a4 3
+   <li><a href="/users/baum/">Home</a></li>
+   <li><a href="/users/baum/teaching.html">Teaching</a></li>
+   <li><a href="/users/baum/talks/">Talks</a>
+d6 4
+a9 4
+     <li><a href="/users/baum/talks/2008.pdf">2008</a></li>
+     <li><a href="/users/baum/talks/2007.pdf">2007</a></li>
+     <li><a href="/users/baum/talks/2006.pdf">2006</a></li>
+     <li><a href="/users/baum/talks/2005.pdf">2005</a></li>
+d12 3
+a14 3
+   <li><a href="/users/baum/cv.pdf">Curriculum Vitae</a></li>
+   <li><a href="/users/baum/publications/">List of Publications</a></li>
+   <li><a href="/users/baum/research.html">Summary of Research</a></li>
+d17 2
+a18 2
+   <li><a href="/users/baum/publications/36.html">Rocking and Rolling with Raoul</a></li>
+   <li><a href="/users/baum/talks/newton.avi">Newton Institute Lecture<br/>August 2006</a></li>
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d12 1
+a12 1
+   <li><a href="/users/baum/cv.html">Curriculum Vitae</a></li>
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d18 1
+@
+
+
+1.9
+log
+@baum - 2008-10-22T15:02:33 - 146.186.134.95
+@
+text
+@a3 1
+   
+d8 2
+@
+
+
+1.8
+log
+@straub - 2008-10-22T13:18:38 - 146.186.132.23
+@
+text
+@d4 1
+a4 1
+   <li><a href="/users/baum/contact.html">Contact</a></li>
+@
+
+
+1.7
+log
+@straub - 2008-10-22T13:18:02 - 146.186.132.23
+@
+text
+@d16 1
+a16 1
+   <li><a href="/users/baum/bott.html">Rocking and Rolling with Raoul</a></li>
+@
+
+
+1.6
+log
+@straub - 2008-10-22T12:53:51 - 146.186.131.71
+@
+text
+@d12 1
+a12 1
+   <li><a href="/users/baum/publications.html">List of Publications</a></li>
+@
+
+
+1.5
+log
+@straub - 2008-10-21T19:40:06 - 128.118.150.123
+@
+text
+@d16 1
+a16 1
+   <li><a href="bott.html">Rocking and Rolling with Raoul</a></li>
+@
+
+
+1.4
+log
+@straub - 2008-10-21T12:55:14 - 146.186.132.23
+@
+text
+@d16 1
+a16 1
+   <li><a href="bott.pdf">Rocking and Rolling with Raoul</a></li>
+@
+
+
+1.3
+log
+@straub - 2008-10-21T10:16:51 - 146.186.132.23
+@
+text
+@a8 1
+     <li><a href="/users/baum/talks/2006.pdf">2006</a></li>
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d17 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 4
+a5 4
+   <li><a href="/baum/">Home</a></li>
+   <li><a href="/baum/teaching.html">Teaching</a></li>
+   <li><a href="/baum/contact.html">Contact</a></li>
+   <li><a href="/baum/talks/">Talks</a>
+d7 3
+a9 3
+     <li><a href="/baum/talks/2008.pdf">2008</a></li>
+     <li><a href="/baum/talks/2007.pdf">2007</a></li>
+     <li><a href="/baum/talks/2006.pdf">2006</a></li>
+d12 3
+a14 3
+   <li><a href="/baum/cv.html">Curriculum Vitae</a></li>
+   <li><a href="/baum/publications.html">List of Publications</a></li>
+   <li><a href="/baum/research.html">Summary of Research</a></li>
+@

@@ -1,0 +1,47 @@
+@import url("templace/css/print.css");
+
+a[href$=".avi"]:after {
+  content       : " [avi]";
+  font-size     : 0.7em;
+  font-variant  : small-caps;
+  font-weight   : bold;
+  vertical-align: top }
+
+a[href$=".doc"]:after {
+  content       : " [doc]";
+  font-size     : 0.7em;
+  font-variant  : small-caps;
+  font-weight   : bold;
+  vertical-align: top }
+
+a[href$=".pdf"]:after {
+  content       : " [pdf]";
+  font-size     : 0.7em;
+  font-variant  : small-caps;
+  font-weight   : bold;
+  vertical-align: top }
+
+a[href$=".ps"]:after {
+  content       : " [ps]";
+  font-size     : 0.7em;
+  font-variant  : small-caps;
+  font-weight   : bold;
+  vertical-align: top }
+
+div.header img {
+  height: 4.88em;
+  width : 8.88em }
+
+img {
+  border-style  : none;
+  vertical-align: middle }
+
+sub {
+  font-size     : 0.8em;
+  vertical-align: bottom }
+
+sup {
+  font-size     : 0.8em;
+  vertical-align: top }
+
+#content > *:first-child { margin-top: 0 }

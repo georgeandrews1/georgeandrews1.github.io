@@ -1,0 +1,576 @@
+head	1.14;
+access;
+symbols;
+locks
+	apache:1.14; strict;
+comment	@# @;
+
+
+1.14
+date	2008.12.04.19.07.39;	author root;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2008.12.04.18.35.10;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2008.12.04.18.20.12;	author root;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2008.10.23.18.27.04;	author apache;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2008.10.23.18.25.30;	author apache;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2008.10.22.19.26.13;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2008.10.21.14.32.16;	author apache;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2008.10.21.14.28.23;	author apache;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2008.10.21.14.19.50;	author apache;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2008.10.21.14.19.03;	author apache;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2008.10.20.19.32.02;	author apache;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2008.10.20.18.21.49;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2008.10.20.18.14.24;	author apache;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2008.10.20.18.14.09;	author apache;	state Exp;
+branches;
+next	;
+
+
+desc
+@main.css
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@@@import url("/users/common/style.css");
+
+
+html, body {
+  background-color: #07085A;
+  color           : #FFFFFF;
+  font-family     : arial,sans-serif;
+  font-size       : 12pt;
+  margin          : 0;
+  padding         : 0 }
+
+
+div.header * {
+  font-style: italic;
+  margin    : 0 }
+
+div.header h1 {
+  font-size  : 2em;
+  padding-top: 0.5em }
+
+div.header h2 {
+  font-size     : 1.5em;
+  padding-bottom: 1em }
+
+div.header a {
+  float       : left;
+  margin-right: 2em }
+
+div.header img:first-child { display: none }
+
+
+#content {
+  background-color: #F0F0FF;
+  clear           : both;
+  color           : #000000;
+  display         : block;
+  min-height      : 33em;
+  margin          : 0 0 0 10em;
+  padding         : 2em 2em 2em 6em }
+
+
+ul.menu, ul.menu a, ul.menu li, ul.menu ol, ul.menu ul {
+  display        : block;
+  list-style-type: none;
+  margin         : 0;
+  padding        : 0 }
+
+ul.menu {
+  left    : 0;
+  position: absolute;
+  top     : 7.5em;
+  width   : 14em }
+
+ul.menu a {
+  background-color: #FFFFFF;
+  border-color    : #FFFFFF #FFFFFF #C0C0DD #C0C0DD;
+  border-style    : solid;
+  border-width    : 0.25em;
+  color           : #0000FF;
+  font-size       : 0.9em;
+  font-weight     : bold;
+  padding         : 0.1em 0.5em;
+  text-decoration : none }
+
+ul.menu li li a {
+  font-size  : 0.75em;
+  margin-left: 3em }
+
+ul.menu a:hover { background-color: #D0D0FF }
+ul.menu a:active { border-color: #C0C0DD #C0C0DD #FFFFFF #FFFFFF }
+
+ul.menu li { margin: 1em 0 0 0 }
+ul.menu li:first-child, ul.menu li li { margin: 0 }
+
+
+div.footer {
+  font-size : 0.8em;
+  padding   : 1em 0;
+  text-align: center }
+
+div.footer * { margin: 0 }
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@a29 3
+div.header img {
+  height: 4.88em;
+  width : 8.88em }
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@a84 20
+
+
+
+
+
+
+@@media print {
+  ul.menu, div.footer { display: none }
+
+  div.header, div#content {
+    background-color: transparent;
+    color           : #000000;
+    margin          : 0;
+    padding         : 0 }
+
+  div.header img { display: none }
+  div.header img:first-child { display: inline }
+
+  div.header h1 { padding-top: 0 }
+}
+@
+
+
+1.11
+log
+@straub - 2008-10-23T14:27:04 - 146.186.132.23
+@
+text
+@d30 3
+@
+
+
+1.10
+log
+@straub - 2008-10-23T14:25:30 - 146.186.132.23
+@
+text
+@d29 2
+d97 3
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d25 1
+a25 1
+div.header img {
+@
+
+
+1.8
+log
+@straub - 2008-10-21T10:32:16 - 146.186.132.23
+@
+text
+@d1 3
+d5 1
+a5 1
+  background-color: #000080;
+d35 1
+a35 1
+  min-height      : 30em;
+d49 1
+a49 1
+  top     : 8em;
+a82 3
+img {
+  border-style  : none;
+  vertical-align: middle }
+d86 2
+a87 14
+a[href$=".pdf"]:after {
+  content       : " [pdf]";
+  font-size     : 0.7em;
+  font-variant  : small-caps;
+  font-weight   : bold;
+  vertical-align: top }
+
+a[href$=".avi"]:after {
+  content       : " [avi]";
+  font-size     : 0.7em;
+  font-variant  : small-caps;
+  font-weight   : bold;
+  vertical-align: top }
+
+d89 5
+d95 1
+a95 13
+
+@@media print {
+  div.header img:first-child, ul.menu, div.footer { display: none }
+
+  div.header {
+    background-image   : url("/images/psuMark.std_shadow.gif");
+    background-position: top left;
+    background-repeat  : no-repeat;
+    padding-left       : 10.88em }
+
+  div#content {
+    margin : 0;
+    padding: 0 }
+@
+
+
+1.7
+log
+@straub - 2008-10-21T10:28:23 - 146.186.132.23
+@
+text
+@d46 1
+a46 1
+  top     : 10em;
+@
+
+
+1.6
+log
+@straub - 2008-10-21T10:19:50 - 146.186.132.23
+@
+text
+@d86 15
+@
+
+
+1.5
+log
+@straub - 2008-10-21T10:19:03 - 146.186.132.23
+@
+text
+@d94 2
+a95 1
+    background-repeat  : no-repeat }
+@
+
+
+1.4
+log
+@straub - 2008-10-20T15:32:02 - 146.186.132.23
+@
+text
+@d89 6
+a94 1
+  ul.menu, div.footer { display: none }
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d1 94
+a94 94
+html, body {
+  background-color: #000080;
+  color           : #FFFFFF;
+  font-family     : arial,sans-serif;
+  font-size       : 12pt;
+  margin          : 0;
+  padding         : 0 }
+
+
+div.header * {
+  font-style: italic;
+  margin    : 0 }
+
+div.header h1 {
+  font-size  : 2em;
+  padding-top: 0.5em }
+
+div.header h2 {
+  font-size     : 1.5em;
+  padding-bottom: 1em }
+
+div.header img {
+  float       : left;
+  margin-right: 2em }
+
+
+#content {
+  background-color: #F0F0FF;
+  clear           : both;
+  color           : #000000;
+  display         : block;
+  min-height      : 30em;
+  margin          : 0 0 0 10em;
+  padding         : 2em 2em 2em 6em }
+
+
+ul.menu, ul.menu a, ul.menu li, ul.menu ol, ul.menu ul {
+  display        : block;
+  list-style-type: none;
+  margin         : 0;
+  padding        : 0 }
+
+ul.menu {
+  left    : 0;
+  position: absolute;
+  top     : 10em;
+  width   : 14em }
+
+ul.menu a {
+  background-color: #FFFFFF;
+  border-color    : #FFFFFF #FFFFFF #C0C0DD #C0C0DD;
+  border-style    : solid;
+  border-width    : 0.25em;
+  color           : #0000FF;
+  font-size       : 0.9em;
+  font-weight     : bold;
+  padding         : 0.1em 0.5em;
+  text-decoration : none }
+
+ul.menu li li a {
+  font-size  : 0.75em;
+  margin-left: 3em }
+
+ul.menu a:hover { background-color: #D0D0FF }
+ul.menu a:active { border-color: #C0C0DD #C0C0DD #FFFFFF #FFFFFF }
+
+ul.menu li { margin: 1em 0 0 0 }
+ul.menu li:first-child, ul.menu li li { margin: 0 }
+
+
+div.footer {
+  font-size : 0.8em;
+  padding   : 1em 0;
+  text-align: center }
+
+div.footer * { margin: 0 }
+
+
+
+img {
+  border-style  : none;
+  vertical-align: middle }
+
+
+
+
+
+@@media print {
+  ul.menu, div.footer { display: none }
+
+  div#content {
+    margin : 0;
+    padding: 0 }
+}
+@
+
+
+1.2
+log
+@baum - 2008-10-20T14:14:24 - 146.186.132.23
+@
+text
+@a0 11
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+  <link href="/users/baum/template/main.css" rel="stylesheet" type="text/css" />
+ </head>
+ <body>
+
+<!--#include virtual="/users/baum/template/header.inc" -->
+
+  <div id="content">
+a94 9
+
+  </div> <!-- end content -->
+
+<!--#include virtual="/users/baum/template/menu.inc" -->
+
+<!--#include virtual="/users/baum/template/footer.inc" -->
+
+ </body>
+</html>@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 105
+a105 7
+html, body {
+  background-color: #000080;
+  color           : #FFFFFF;
+  font-family     : arial,sans-serif;
+  font-size       : 12pt;
+  margin          : 0;
+  padding         : 0 }
+d107 1
+d109 1
+a109 3
+div.header * {
+  font-style: italic;
+  margin    : 0 }
+d111 1
+a111 3
+div.header h1 {
+  font-size  : 2em;
+  padding-top: 0.5em }
+d113 2
+a114 75
+div.header h2 {
+  font-size     : 1.5em;
+  padding-bottom: 1em }
+
+div.header img {
+  float       : left;
+  margin-right: 2em }
+
+
+#content {
+  background-color: #F0F0FF;
+  clear           : both;
+  color           : #000000;
+  display         : block;
+  min-height      : 30em;
+  margin          : 0 0 0 10em;
+  padding         : 2em 2em 2em 6em }
+
+
+ul.menu, ul.menu a, ul.menu li, ul.menu ol, ul.menu ul {
+  display        : block;
+  list-style-type: none;
+  margin         : 0;
+  padding        : 0 }
+
+ul.menu {
+  left    : 0;
+  position: absolute;
+  top     : 10em;
+  width   : 14em }
+
+ul.menu a {
+  background-color: #FFFFFF;
+  border-color    : #FFFFFF #FFFFFF #C0C0DD #C0C0DD;
+  border-style    : solid;
+  border-width    : 0.25em;
+  color           : #0000FF;
+  font-size       : 0.9em;
+  font-weight     : bold;
+  padding         : 0.1em 0.5em;
+  text-decoration : none }
+
+ul.menu li li a {
+  font-size  : 0.75em;
+  margin-left: 3em }
+
+ul.menu a:hover { background-color: #D0D0FF }
+ul.menu a:active { border-color: #C0C0DD #C0C0DD #FFFFFF #FFFFFF }
+
+ul.menu li { margin: 1em 0 0 0 }
+ul.menu li:first-child, ul.menu li li { margin: 0 }
+
+
+div.footer {
+  font-size : 0.8em;
+  padding   : 1em 0;
+  text-align: center }
+
+div.footer * { margin: 0 }
+
+
+
+img {
+  border-style  : none;
+  vertical-align: middle }
+
+
+
+@@media print {
+  ul.menu, div.footer { display: none }
+
+  div#content {
+    margin : 0;
+    padding: 0 }
+}
+@

@@ -1,0 +1,81 @@
+@import url("/users/common/style.css");
+
+
+html, body {
+  background-color: #07085A;
+  color           : #FFFFFF;
+  font-family     : arial,sans-serif;
+  font-size       : 12pt;
+  margin          : 0;
+  padding         : 0 }
+
+
+div.header * {
+  font-style: italic;
+  margin    : 0 }
+
+div.header h1 {
+  font-size  : 2em;
+  padding-top: 0.5em }
+
+div.header h2 {
+  font-size     : 1.5em;
+  padding-bottom: 1em }
+
+div.header a {
+  float       : left;
+  margin-right: 2em }
+
+div.header img:first-child { display: none }
+
+
+#content {
+  background-color: #F0F0FF;
+  clear           : both;
+  color           : #000000;
+  display         : block;
+  min-height      : 33em;
+  margin          : 0 0 0 10em;
+  padding         : 2em 2em 2em 6em }
+
+
+ul.menu, ul.menu a, ul.menu li, ul.menu ol, ul.menu ul {
+  display        : block;
+  list-style-type: none;
+  margin         : 0;
+  padding        : 0 }
+
+ul.menu {
+  left    : 0;
+  position: absolute;
+  top     : 7.5em;
+  width   : 14em }
+
+ul.menu a {
+  background-color: #FFFFFF;
+  border-color    : #FFFFFF #FFFFFF #C0C0DD #C0C0DD;
+  border-style    : solid;
+  border-width    : 0.25em;
+  color           : #0000FF;
+  font-size       : 0.9em;
+  font-weight     : bold;
+  padding         : 0.1em 0.5em;
+  text-decoration : none }
+
+ul.menu li li a {
+  font-size  : 0.75em;
+  margin-left: 3em }
+
+ul.menu a:hover { background-color: #D0D0FF }
+ul.menu a:active { border-color: #C0C0DD #C0C0DD #FFFFFF #FFFFFF }
+
+ul.menu li { margin: 1em 0 0 0 }
+ul.menu li:first-child, ul.menu li li { margin: 0 }
+
+
+div.footer {
+  font-size : 0.8em;
+  padding   : 1em 0;
+  text-align: center }
+
+div.footer * { margin: 0 }
