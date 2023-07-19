@@ -1,5 +1,5 @@
   <ul class="menu">
-   <li><a href="/georgeandrews1">Home</a></li>
+   <li><a href="/">Home</a></li>
    <li><a href="teaching.html">Teaching</a></li>
    <li><a href="contact.html">Contact</a></li>
    <li><a href="talks/Talks 2021.pdf">2021 Talks</a></li>
