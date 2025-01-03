@@ -4,5 +4,5 @@
     <img alt="PSU Shield" src="images/psu.png" />
    </a>
    <h1>George E. Andrews</h1>
-   <h2>Evan Pugh Professor of Mathematics</h2>
+   <h2>Atherton Professor in Mathematics</h2>
   </div>
