@@ -14,4 +14,6 @@
    <li><a href="http://www.collegian.psu.edu/news/campus/article_e69760e2-9f9e-11e5-aef8-c35f65f00249.html">2015 Collegian Article</a></li>
   <li><a href="https://amathr.org/">Association for Mathematical Research</a></li>
  </ul>
+ 
+ 
 
